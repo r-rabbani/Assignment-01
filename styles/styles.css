@@ -136,7 +136,7 @@ video {
 }
 .column {
     flex: 1;
-    max-width: 300px;
+    max-width: fit-content;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -172,14 +172,19 @@ video {
 /* Support Styles */
 .support   {
     background-image: url(/assets/handshake.jpg);
-    width: 100%;
+    /* max-width: max-content; */
     background-repeat: no-repeat;
     background-size: 1200px;
+    padding: 50px 40px;
     color: white;
     text-align: center;
     border-radius: 10px;
-    margin: 40px;
-    justify-content: space-around;
+    margin: 40px 40px;
+    /* justify-content: space-around; */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: ;
 }
 footer textarea {
     height: 50px;
@@ -190,5 +195,16 @@ footer textarea {
 
 }
 .text-content {
-    justify-content: baseline;
+    align-items: center;
+}
+footer input[type="text"]{
+    height: 18px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline;
+    width: 50%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-color:#e6e6e6;
+    align-items: center;
 }
