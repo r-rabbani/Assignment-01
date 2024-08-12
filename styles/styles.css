@@ -6,8 +6,15 @@
     border-color: rgb(56, 56, 56);
     background-color: white;
 }
+.decoration {
+    text-decoration: none;
+    color: white;
+}
 .nav {
-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 .container {
     background-image: url('../assets/Hero-bg.png');
