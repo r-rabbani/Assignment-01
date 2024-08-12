@@ -112,7 +112,7 @@ img {
 }
 .video-container {
     border-radius: 15px;
-    overflow: hidden; /* Ensures the video fits within the rounded border */
+    overflow: hidden; 
     border: 2px solid #ccc;
     padding: 20px 20px;
 }
@@ -168,4 +168,27 @@ video {
 }
 .js {
     background-color: rgb(255, 253, 238)            ;
+}
+/* Support Styles */
+.support   {
+    background-image: url(/assets/handshake.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 40px;
+    justify-content: space-around;
+}
+footer textarea {
+    height: 50px;
+    width:fit-content;
+    border-radius: 5px;
+    display: flex;
+    margin: 24px;
+
+}
+.text-content {
+    justify-content: baseline;
 }
