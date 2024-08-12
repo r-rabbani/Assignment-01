@@ -198,13 +198,19 @@ footer textarea {
     align-items: center;
 }
 footer input[type="text"]{
-    height: 18px;
+    height: 15px;
     border-radius: 5px;
     background-color: white;
-    display: inline;
+    /* display: inline; */
     width: 50%;
     padding: 10px 20px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     border-color:#e6e6e6;
+    position: relative;
+    /* display: flex; */
+}
+.text-content {
     align-items: center;
+    justify-content: center;
+    display: flex;
 }
