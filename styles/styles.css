@@ -169,6 +169,9 @@ video {
     color: #555;
     margin-top: 0;
 }
+.learnmore {
+    color: #222222;
+}
 /* Column Color */
 .html {
     background-color: #fff3ed;
